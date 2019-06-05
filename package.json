@@ -8,10 +8,22 @@
   },
   "author": "jean lopes",
   "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "breakpoint-sass": "^2.7.1",
+    "sass-flex-mixin": "^1.0.3"
+  },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-watch": "^5.0.1",
     "node-sass": "^4.12.0"
-  }
+  },
+  "repository": "https://github.com/jeanlopes/vuttr_client_daft.git"
 }

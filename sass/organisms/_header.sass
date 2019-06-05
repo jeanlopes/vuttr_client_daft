@@ -2,4 +2,24 @@ header
     +clearfix
     min-height: 200px
     position: relative
-    
+    &:before
+        height: 45px
+    &:after
+        content: ""
+        display: block
+        position: absolute
+        bottom: 0
+        width: 35%
+        height: 45px
+    .titulo
+        h1
+            text-transform: uppercase
+    .menu
+        display: block !important
+        min-height: 45px
+    .search
+        display: inline
+        float: left
+    .add
+        display: inline
+        float: right
